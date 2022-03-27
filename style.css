@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+
+}
+
+nav span {
+    font-family: 'Exo', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 56px;
+    color: white;
+    background-color:rgb(14,30,55)
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 8px;
+    border-radius: 8px;
+}
+ 
+body{
+    background-color: rgb(44,61,91) !important
+    
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dados{
+    margin-bottom: 20px;
+}
+
+form button{
+    margin-top: 20px;
+    width: 240px;
+}
+
+.foto #mabel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    margin-top: 250px;
+    margin-bottom: 200px;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+    border-width: 8px;
+}
+
+#request{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    margin-top: 25%;
+    color: white;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size:36px;
+}
+
+#login{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 510px;
+    margin-left: 80px;
+    bottom : 500px;
+    position: relative;
+}
+
+.facebook{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.foto #mabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+}
+
+#accept{
+    display: flex;
+    position: absolute;
+    margin-top : 250%;
+    left: 60px;
+    padding: 10px 20px 10px 20px;
+
+}
+
+#decline{
+    display: flex;
+    position: absolute;
+    margin-top: 250%;
+    padding: 10px 20px 10px 20px;
+    right: 60px;
+}
+
+.foto{
+    height: 100px;
+} 
+
+a{
+    text-decoration: none !important;
+}
+
+.about{
+    color: white;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    color: grey;
+    font-family: 'Fredoka', sans-serif;
+    border-radius: 8px;
+    padding: 8px;
+    width: 250px;
+    margin-top: 200%;
+    position: absolute;
+    width: 200px;
+}
+
+#login > #father{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 10px;
+    left: 20px;
+    position: relative;
+}
+
+#login{
+    width: 350px;
+    background-color: rgb(14,30,55);
+    padding: 30px;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position:relative;
+    right: 50px;
+}
+
+p{
+    font-size: 26px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+#enter{
+    width: 240px;
+}
+
+#sobre{
+    width: 250px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 2rem;
+}
