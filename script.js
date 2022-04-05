@@ -7,3 +7,5 @@ but.onclick = function myFun() {
   login.style.display = 'block'
   foto.style.display = 'none'
 }
+
+console.log("Hello World!");
